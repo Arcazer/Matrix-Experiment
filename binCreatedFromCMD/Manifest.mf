@@ -1,3 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: de.tuchemnitz.se.openmp.Main
-Class-Path: pyjama.jar
