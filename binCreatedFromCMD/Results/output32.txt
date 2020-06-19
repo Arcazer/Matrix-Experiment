@@ -1,28 +1,3 @@
-Error: Unable to access jarfile repetitions/32ThreadsMatrixExp.jar
-
- Performance counter stats for 'java -jar repetitions/32ThreadsMatrixExp.jar':
-
-           180,024      L1-dcache-store                                             
-             4,485      L1-dcache-store-misses                                      
-             3,933      LLC-store                                                   
-             3,115      LLC-store-misses                                            
-     <not counted>      L1-dcache-loads                                               (0.00%)
-     <not counted>      L1-dcache-load-misses                                         (0.00%)
-     <not counted>      LLC-loads                                                     (0.00%)
-     <not counted>      LLC-load-misses                                               (0.00%)
-     <not counted>      L1-icache-loads                                               (0.00%)
-     <not counted>      L1-icache-load-misses                                         (0.00%)
-     <not counted>      dTLB-loads                                                    (0.00%)
-     <not counted>      dTLB-load-misses                                              (0.00%)
-     <not counted>      iTLB-loads                                                    (0.00%)
-     <not counted>      iTLB-load-misses                                              (0.00%)
-
-       0.001343505 seconds time elapsed
-
-Some events weren't counted. Try disabling the NMI watchdog:
-	echo 0 > /proc/sys/kernel/nmi_watchdog
-	perf stat ...
-	echo 1 > /proc/sys/kernel/nmi_watchdog
 Jun 18, 2020 11:13:28 PM de.tuchemnitz.se.openmp.ExperimentManager <init>
 INFO: Run 0/100: toke 4935ms
 Jun 18, 2020 11:13:31 PM de.tuchemnitz.se.openmp.ExperimentManager <init>
