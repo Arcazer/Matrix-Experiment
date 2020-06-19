@@ -1,0 +1,220 @@
+Jun 19, 2020 10:40:43 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 0/100: toke 15064ms
+Jun 19, 2020 10:40:57 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 1/100: toke 13631ms
+Jun 19, 2020 10:41:12 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 2/100: toke 14395ms
+Jun 19, 2020 10:41:26 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 3/100: toke 14039ms
+Jun 19, 2020 10:41:41 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 4/100: toke 14910ms
+Jun 19, 2020 10:41:56 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 5/100: toke 15227ms
+Jun 19, 2020 10:42:12 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 6/100: toke 15079ms
+Jun 19, 2020 10:42:26 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 7/100: toke 14532ms
+Jun 19, 2020 10:42:41 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 8/100: toke 14986ms
+Jun 19, 2020 10:42:57 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 9/100: toke 14882ms
+Jun 19, 2020 10:43:11 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 10/100: toke 14456ms
+Jun 19, 2020 10:43:26 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 11/100: toke 15166ms
+Jun 19, 2020 10:43:41 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 12/100: toke 14143ms
+Jun 19, 2020 10:43:56 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 13/100: toke 14740ms
+Jun 19, 2020 10:44:10 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 14/100: toke 14228ms
+Jun 19, 2020 10:44:24 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 15/100: toke 14223ms
+Jun 19, 2020 10:44:40 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 16/100: toke 15405ms
+Jun 19, 2020 10:44:54 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 17/100: toke 14414ms
+Jun 19, 2020 10:45:09 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 18/100: toke 14474ms
+Jun 19, 2020 10:45:24 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 19/100: toke 14565ms
+Jun 19, 2020 10:45:39 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 20/100: toke 15000ms
+Jun 19, 2020 10:45:53 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 21/100: toke 14485ms
+Jun 19, 2020 10:46:08 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 22/100: toke 14825ms
+Jun 19, 2020 10:46:23 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 23/100: toke 14350ms
+Jun 19, 2020 10:46:38 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 24/100: toke 14867ms
+Jun 19, 2020 10:46:53 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 25/100: toke 14987ms
+Jun 19, 2020 10:47:08 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 26/100: toke 14676ms
+Jun 19, 2020 10:47:22 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 27/100: toke 14279ms
+Jun 19, 2020 10:47:36 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 28/100: toke 13943ms
+Jun 19, 2020 10:47:51 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 29/100: toke 14127ms
+Jun 19, 2020 10:48:06 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 30/100: toke 14799ms
+Jun 19, 2020 10:48:19 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 31/100: toke 12992ms
+Jun 19, 2020 10:48:33 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 32/100: toke 14633ms
+Jun 19, 2020 10:48:48 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 33/100: toke 14638ms
+Jun 19, 2020 10:49:02 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 34/100: toke 14106ms
+Jun 19, 2020 10:49:18 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 35/100: toke 15231ms
+Jun 19, 2020 10:49:33 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 36/100: toke 14815ms
+Jun 19, 2020 10:49:47 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 37/100: toke 13934ms
+Jun 19, 2020 10:50:01 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 38/100: toke 14514ms
+Jun 19, 2020 10:50:15 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 39/100: toke 13534ms
+Jun 19, 2020 10:50:30 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 40/100: toke 15104ms
+Jun 19, 2020 10:50:45 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 41/100: toke 14736ms
+Jun 19, 2020 10:51:00 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 42/100: toke 14938ms
+Jun 19, 2020 10:51:16 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 43/100: toke 15510ms
+Jun 19, 2020 10:51:30 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 44/100: toke 14203ms
+Jun 19, 2020 10:51:45 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 45/100: toke 14668ms
+Jun 19, 2020 10:52:00 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 46/100: toke 14754ms
+Jun 19, 2020 10:52:16 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 47/100: toke 15848ms
+Jun 19, 2020 10:52:31 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 48/100: toke 14775ms
+Jun 19, 2020 10:52:45 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 49/100: toke 14266ms
+Jun 19, 2020 10:53:00 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 50/100: toke 14591ms
+Jun 19, 2020 10:53:15 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 51/100: toke 14561ms
+Jun 19, 2020 10:53:29 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 52/100: toke 14565ms
+Jun 19, 2020 10:53:44 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 53/100: toke 14521ms
+Jun 19, 2020 10:53:58 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 54/100: toke 14184ms
+Jun 19, 2020 10:54:13 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 55/100: toke 14261ms
+Jun 19, 2020 10:54:28 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 56/100: toke 14866ms
+Jun 19, 2020 10:54:42 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 57/100: toke 14298ms
+Jun 19, 2020 10:54:57 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 58/100: toke 14657ms
+Jun 19, 2020 10:55:11 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 59/100: toke 14131ms
+Jun 19, 2020 10:55:25 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 60/100: toke 14052ms
+Jun 19, 2020 10:55:40 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 61/100: toke 14371ms
+Jun 19, 2020 10:55:54 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 62/100: toke 13940ms
+Jun 19, 2020 10:56:08 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 63/100: toke 13750ms
+Jun 19, 2020 10:56:22 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 64/100: toke 14273ms
+Jun 19, 2020 10:56:37 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 65/100: toke 14140ms
+Jun 19, 2020 10:56:50 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 66/100: toke 13146ms
+Jun 19, 2020 10:57:04 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 67/100: toke 14157ms
+Jun 19, 2020 10:57:18 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 68/100: toke 13469ms
+Jun 19, 2020 10:57:32 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 69/100: toke 14287ms
+Jun 19, 2020 10:57:46 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 70/100: toke 13450ms
+Jun 19, 2020 10:57:59 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 71/100: toke 13581ms
+Jun 19, 2020 10:58:14 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 72/100: toke 14301ms
+Jun 19, 2020 10:58:28 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 73/100: toke 14363ms
+Jun 19, 2020 10:58:43 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 74/100: toke 14570ms
+Jun 19, 2020 10:58:58 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 75/100: toke 14962ms
+Jun 19, 2020 10:59:13 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 76/100: toke 14432ms
+Jun 19, 2020 10:59:27 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 77/100: toke 14277ms
+Jun 19, 2020 10:59:41 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 78/100: toke 13986ms
+Jun 19, 2020 10:59:57 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 79/100: toke 15202ms
+Jun 19, 2020 11:00:11 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 80/100: toke 14510ms
+Jun 19, 2020 11:00:26 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 81/100: toke 14770ms
+Jun 19, 2020 11:00:41 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 82/100: toke 14925ms
+Jun 19, 2020 11:00:56 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 83/100: toke 13941ms
+Jun 19, 2020 11:01:09 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 84/100: toke 13593ms
+Jun 19, 2020 11:01:24 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 85/100: toke 14661ms
+Jun 19, 2020 11:01:39 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 86/100: toke 15115ms
+Jun 19, 2020 11:01:54 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 87/100: toke 14454ms
+Jun 19, 2020 11:02:09 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 88/100: toke 15026ms
+Jun 19, 2020 11:02:23 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 89/100: toke 13854ms
+Jun 19, 2020 11:02:38 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 90/100: toke 14931ms
+Jun 19, 2020 11:02:54 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 91/100: toke 15185ms
+Jun 19, 2020 11:03:08 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 92/100: toke 14194ms
+Jun 19, 2020 11:03:23 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 93/100: toke 14777ms
+Jun 19, 2020 11:03:37 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 94/100: toke 14105ms
+Jun 19, 2020 11:03:52 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 95/100: toke 14979ms
+Jun 19, 2020 11:04:07 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 96/100: toke 14927ms
+Jun 19, 2020 11:04:22 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 97/100: toke 14595ms
+Jun 19, 2020 11:04:37 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 98/100: toke 15045ms
+Jun 19, 2020 11:04:52 AM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 99/100: toke 15086ms
+
+ Performance counter stats for 'java -jar repetitions100/4ThreadsMatrixExp.jar':
+
+ 2,706,200,552,512      L1-dcache-store                                               (28.58%)
+     1,617,927,841      L1-dcache-store-misses                                        (28.58%)
+     1,434,527,167      LLC-store                                                     (28.57%)
+     1,347,972,378      LLC-store-misses                                              (28.57%)
+ 8,137,365,317,408      L1-dcache-loads                                               (28.57%)
+   182,012,239,604      L1-dcache-load-misses     #    2.24% of all L1-dcache hits    (28.57%)
+    33,475,880,706      LLC-loads                                                     (28.57%)
+    24,780,405,688      LLC-load-misses           #   29.07% of all LL-cache hits     (28.56%)
+   137,005,134,900      L1-icache-loads                                               (28.56%)
+       934,753,193      L1-icache-load-misses                                         (28.57%)
+ 8,138,256,976,558      dTLB-loads                                                    (28.57%)
+     3,615,858,826      dTLB-load-misses          #    0.04% of all dTLB cache hits   (28.57%)
+10,302,978,556,502      iTLB-loads                                                    (28.57%)
+        18,723,395      iTLB-load-misses          #    0.00% of all iTLB cache hits   (28.57%)
+
+    1464.678915753 seconds time elapsed
+
