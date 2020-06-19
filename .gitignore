@@ -1,0 +1,5 @@
+*.*
+!binCreatedFromCMD/*.jar
+!binCreatedFromCMD/*/*.jar
+!binCreatedFromCMD/Results/*
+!.gitignore
