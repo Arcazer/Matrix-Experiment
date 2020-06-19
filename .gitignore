@@ -1,5 +1,4 @@
 *.*
-!binCreatedFromCMD/*.jar
-!binCreatedFromCMD/*/*.jar
-!binCreatedFromCMD/Results/*
+!binCreatedFromCMD/**.jar
+!binCreatedFromCMD/expResults/**
 !.gitignore
