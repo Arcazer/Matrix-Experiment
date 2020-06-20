@@ -1,11 +1,19 @@
 #!/bin/bash
-repCount=3
+repCount=1
 
 #server=24Cores
 server=80Cores
 #server=96Cores
 
 perfArguments=L1-dcache-store,L1-dcache-store-misses,LLC-store,LLC-store-misses
+
+#create folder under expResults where the perf output should be stored
+mkdir expResults/$server/repetitions$repCount
+if [ $? -ne 0 ] ; then
+    echo "new experiment output folder /$server/repetitions$repCount created"
+else
+    echo "output folder /$server/repetitions$repCount exist. Reuse existing folder"
+fi
 
 sudo perf stat -e $perfArguments -dd java -jar repetitions$repCount/1ThreadsMatrixExp.jar &>>./expResults/$server/repetitions$repCount/output1.txt
 echo "Success1"
