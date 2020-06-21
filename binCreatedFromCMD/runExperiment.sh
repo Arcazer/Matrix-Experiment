@@ -1,5 +1,5 @@
 #!/bin/bash
-repCount=1
+repCount=100
 
 #server=24Cores
 server=80Cores
@@ -7,7 +7,7 @@ server=80Cores
 
 
 
-for i in 1 2 4 8 16 20 24 32 48 64
+for i in 1 2 4 6 8 10 12 14 16 18 20 24 32 40 44 48 56 64
 do
 
   perfArguments="stat -x; -ddd -o expResults/$server/repetitions$repCount/perfOutput${i}.csv -e L1-dcache-store,L1-dcache-store-misses,LLC-store,LLC-store-misses"
