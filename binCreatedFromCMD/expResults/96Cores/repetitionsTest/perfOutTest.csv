@@ -1,0 +1,20 @@
+# started on Mon Jun 22 16:03:18 2020
+
+
+ Performance counter stats for 'java -jar repetitions1/8ThreadsMatrixExp.jar':
+
+      24575,554383      task-clock (msec)         #    7,494 CPUs utilized          
+            10.285      context-switches          #    0,419 K/sec                  
+               196      cpu-migrations            #    0,008 K/sec                  
+           109.315      page-faults               #    0,004 M/sec                  
+    77.777.936.605      cycles                    #    3,165 GHz                      (49,95%)
+   100.016.055.943      instructions              #    1,29  insn per cycle           (62,44%)
+     4.521.973.597      branches                  #  184,003 M/sec                    (62,37%)
+        21.418.658      branch-misses             #    0,47% of all branches          (62,58%)
+    82.800.683.023      L1-dcache-loads           # 3369,230 M/sec                    (62,59%)
+     1.839.845.078      L1-dcache-load-misses     #    2,22% of all L1-dcache hits    (62,54%)
+        44.234.131      LLC-loads                 #    1,800 M/sec                    (50,01%)
+         8.927.651      LLC-load-misses           #   20,18% of all LL-cache hits     (49,96%)
+
+       3,279212088 seconds time elapsed
+
