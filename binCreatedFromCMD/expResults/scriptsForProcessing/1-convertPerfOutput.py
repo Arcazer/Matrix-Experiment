@@ -4,18 +4,20 @@ import re
 import os
 import glob
 
-final_output_file = "results80CorePreProcessedPerf.csv"
-base_path = '../80Cores/repetitions1/'
+# final_output_file = "results80CorePreProcessedPerf.csv"
+base_path = '../80Cores/repetitions100/'
+final_output_file = 'results-1' + base_path.replace('.','').replace('/','-') + "PreProcessedPerf.csv"
 perf_file_base_name = 'perfOutput'
 csv_file_ending = '.csv'
 df_array = []
+repetition_count = 100
 
-#retrieve all perf_output-files
+#1.retrieve all perf_output-files
 perf_output_files = os.listdir(base_path)    
 perf_output_files = list(filter(lambda f: f.endswith(csv_file_ending) and f.startswith(perf_file_base_name), perf_output_files))
-print('Found following perf output files:', perf_output_files )
+# print('Found following perf output files:', perf_output_files )
 
-
+#2.extract perf output data and transform each to a better readable format
 for file_name in perf_output_files:
     csv_path = os.path.join(base_path,file_name)
     #ignore first csv row because it contains a comment
@@ -35,6 +37,9 @@ for file_name in perf_output_files:
 
     #remove second line from df (which is already used as new header)
     df = df.drop(index=[2])
+    
+    #we want values of a single run 
+    df = df.div(repetition_count)
 
     #extracts thread count from file name and add it to dataFrame-- maybe unstable if file name pattern is changed --
     thread_count = re.findall('\d+', file_name)
@@ -43,11 +48,17 @@ for file_name in perf_output_files:
     #print(df)
     df_array.append(df)
 
+#3.concat perf output from different thread runs to one csv 
 result_df = pd.concat(df_array)
 
 #make Threads colum numeric and sort rows by Threads -- error='coerce' will output NaN if converting fails
 result_df.Threads = pd.to_numeric(result_df.Threads,errors='coerce') 
 result_df = result_df.sort_values(by ='Threads')
 
-print(result_df)
+#make them int to remove decimal places
+result_df=result_df.astype('int64')
+
+# print(result_df)
 result_df.to_csv(final_output_file, index=False)
+
+print("Step 1 convert perf output finished")
