@@ -6,3 +6,6 @@
 
 *.class
 *.mf
+binCreatedFromCMD/expResults/scriptsForProcessing/results/
+*.pyc
+.vscode/
