@@ -1,0 +1,6 @@
+Juni 22, 2020 8:44:31 NACHM. de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFORMATION: Run 0/3: toke 3851ms
+Juni 22, 2020 8:44:34 NACHM. de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFORMATION: Run 1/3: toke 3553ms
+Juni 22, 2020 8:44:38 NACHM. de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFORMATION: Run 2/3: toke 3439ms
