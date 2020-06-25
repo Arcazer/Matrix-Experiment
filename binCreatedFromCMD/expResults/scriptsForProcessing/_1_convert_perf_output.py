@@ -5,13 +5,10 @@ import os
 import glob
 import sys
 
-# output_dir = './resultCSVs/' 
 perf_file_base_name = 'perfOutput'
 csv_file_ending = '.csv'
 
 def convert_perf_output(output_dir,base_path,repetition_count):
-    # base_path=base_path_arg
-    # repetition_count=repetition_count_arg
     final_output_file = output_dir + 'results-1' + base_path.replace('.','').replace('/','-') + "PreProcessedPerf.csv"
    
     df_array = []

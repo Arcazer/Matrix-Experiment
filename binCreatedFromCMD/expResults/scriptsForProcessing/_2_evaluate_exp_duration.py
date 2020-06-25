@@ -5,12 +5,9 @@ import os
 import glob
 import matplotlib.pyplot as plt
 
-# output_dir = './resultCSVs/'
 csv_file_ending = '.csv'
 
 def evaluate_exp_duration(output_dir,base_path,thread_sequence_values):
-    # thread_sequence_values = thread_sequence_value_arg
-    # base_path = base_path_arg
     final_output_file = output_dir + 'results-2' + base_path.replace('.','').replace('/','-') + "ExpDuration.csv"
     df_array = []
     

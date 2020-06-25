@@ -4,12 +4,10 @@ import re
 import os
 import glob
 
-# output_dir = './resultCSVs/'
 perf_file_base_name = 'perfOutput'
 csv_file_ending = '.csv'
 
 def evaluate_perf_hit(output_dir,base_path):
-    # base_path = base_path_arg
     pre_processed_perf_file = output_dir + 'results-1' + base_path.replace('.','').replace('/','-') + 'PreProcessedPerf.csv'
     final_output_file = output_dir + 'results-3' + base_path.replace('.','').replace('/','-') + 'ProcessedPerf.csv'
 
