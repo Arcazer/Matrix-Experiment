@@ -7,5 +7,6 @@
 *.class
 *.mf
 binCreatedFromCMD/expResults/scriptsForProcessing/results/
+binCreatedFromCMD/expResults/scriptsForProcessing/resultCsvs
 *.pyc
 .vscode/
