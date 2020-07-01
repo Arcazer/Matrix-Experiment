@@ -1,0 +1,10 @@
+tar -xvzf lmbench3.tar.gz
+
+cd lmbench3
+
+make
+
+xtract,verbose,unzip,file ?
+
+
+./bw_mem –N 10 –P 4 16384 rd
