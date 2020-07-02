@@ -57,8 +57,9 @@ def convert_perf_output(output_dir,base_path,repetition_count):
     result_df.Threads = pd.to_numeric(result_df.Threads,errors='coerce') 
     result_df = result_df.sort_values(by ='Threads')
 
-    #make them int to remove decimal places
-    result_df=result_df.astype('int64')
+    #we want to remove decimal places, but have some <not supported strings>.
+    #Theses strings are converted to -1
+    result_df=result_df.fillna(-1).astype('int64')
 
     # print(result_df)
     result_df.to_csv(final_output_file, index=False)

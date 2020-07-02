@@ -13,23 +13,23 @@ import os
 # l3_dram_bandwidth=4776000
 # thread_sequence = [1,2,4,6,8,10,12,14,16,18,20,24,32,40,44,48,56,64]
 
-# base_path='../96Cores/repetitions100/'
-# resultFolderAppendix='96Core'
-# repetitions = 100
-# core_l1_bandwidth=
-# l1_l2_bandwidth=
-# l2_l3_bandwidth=
-# l3_dram_bandwidth=
-# thread_sequence = [1,2,4,6,8,10,12,14,16,18,20,24,32,40,44,48,56,64]
-
-base_path='../24Cores/repetitions100/'
-resultFolderAppendix='24Core'
+base_path='../96Cores/repetitions100/'
+resultFolderAppendix='96Core'
 repetitions = 100
-core_l1_bandwidth=81196000
-l1_l2_bandwidth=37816000
-l2_l3_bandwidth=24469000
-l3_dram_bandwidth=7873000
-thread_sequence = [1,2,4,6,8,10,12,14,16,18,20]
+core_l1_bandwidth=164810000
+l1_l2_bandwidth=72590000
+l2_l3_bandwidth=18880000
+l3_dram_bandwidth=8207000
+thread_sequence = [1,2,4,6,8,10,12,14,16,18,20,24,32,40,44,48,56,64]
+
+# base_path='../24Cores/repetitions100/'
+# resultFolderAppendix='24Core'
+# repetitions = 100
+# core_l1_bandwidth=81196000
+# l1_l2_bandwidth=37816000
+# l2_l3_bandwidth=24469000
+# l3_dram_bandwidth=7873000
+# thread_sequence = [1,2,4,6,8,10,12,14,16,18,20]
 
 
 
