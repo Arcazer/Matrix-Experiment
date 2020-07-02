@@ -9,7 +9,7 @@ output_dir = './resultCSVs/'
 csv_file_ending = '.csv'
 df_array = []
 
-def evaluate_cpu_demand(output_dir,base_path, core_l1_bandwidth, l1_l2_bandwidth, l2_l3_bandwidth, l3_dram_bandwidth):
+def evaluate_cpu_demand(output_dir,base_path, core_l1_bandwidth, l1_l2_bandwidth, l2_l3_bandwidth, l3_dram_bandwidth,float_format_decimals):
     exp_duration_file = output_dir + 'results-2'+ base_path.replace('.','').replace('/','-') + 'ExpDuration.csv'
     processed_perf_file = output_dir + 'results-3' + base_path.replace('.','').replace('/','-') + 'ProcessedPerf.csv'
     final_output_file =output_dir + 'results-4' + base_path.replace('.','').replace('/','-') + 'CpuDemand.csv'
@@ -61,6 +61,6 @@ def evaluate_cpu_demand(output_dir,base_path, core_l1_bandwidth, l1_l2_bandwidth
 
     ## Threads,L1-dcache-store,L1-dcache-store-misses,LLC-store,LLC-store-misses,L1-dcache-load,L1-dcache-load-misses,LLC-load,LLC-load-misses
 
-    df.to_csv(final_output_file,float_format='%.4f', index=False)
+    df.to_csv(final_output_file,float_format=float_format_decimals, index=False)
 
     print("Step 4 evaluate cpu demand without memory hierarchy finished")

@@ -7,7 +7,7 @@ import glob
 perf_file_base_name = 'perfOutput'
 csv_file_ending = '.csv'
 
-def evaluate_perf_hit(output_dir,base_path):
+def evaluate_perf_hit(output_dir,base_path,float_format_decimals):
     pre_processed_perf_file = output_dir + 'results-1' + base_path.replace('.','').replace('/','-') + 'PreProcessedPerf.csv'
     final_output_file = output_dir + 'results-3' + base_path.replace('.','').replace('/','-') + 'ProcessedPerf.csv'
 
@@ -38,6 +38,6 @@ def evaluate_perf_hit(output_dir,base_path):
     df.insert(len(df.columns),'L2-R-Hit',value=df['L2-dcache-load']/(df['L2-dcache-load']+df['L2-dcache-load-misses']))
     df.insert(len(df.columns),'L3-R-Hit',value=df['LLC-load']/(df['LLC-load']+df['LLC-load-misses']))
 
-    df.to_csv(final_output_file, float_format='%.4f', index=False)
+    df.to_csv(final_output_file, float_format=float_format_decimals, index=False)
 
     print("Step 3 evaluate perf hit-rate finished")

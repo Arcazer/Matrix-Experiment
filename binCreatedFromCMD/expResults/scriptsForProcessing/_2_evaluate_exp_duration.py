@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 csv_file_ending = '.csv'
 
-def evaluate_exp_duration(output_dir,base_path,thread_sequence_values):
+def evaluate_exp_duration(output_dir,base_path,thread_sequence_values,float_format_decimals):
     final_output_file = output_dir + 'results-2' + base_path.replace('.','').replace('/','-') + "ExpDuration.csv"
     df_array = []
     
@@ -39,6 +39,6 @@ def evaluate_exp_duration(output_dir,base_path,thread_sequence_values):
         print('incorrect thread_sequence_values. Expected: ', len(result_df.index),', however thread_sequence_values only specified ', len(threadCount_values),  '. Each Threads row is filled with notSpecified')
     result_df.insert(loc=0, column="Threads", value=thread_sequence_values)
 
-    result_df.to_csv(final_output_file, float_format='%.4f', index=False)
+    result_df.to_csv(final_output_file, float_format=float_format_decimals, index=False)
 
     print("Step 2 evaluate experiment duration finished")
