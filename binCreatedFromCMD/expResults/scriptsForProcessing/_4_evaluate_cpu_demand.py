@@ -54,7 +54,7 @@ def evaluate_cpu_demand(output_dir,base_path, core_l1_bandwidth, l1_l2_bandwidth
     print('core-1-read-time: ',core_l1_read_time)
     print('l1-l2-read-time: ',l1_l2_read_time)
     print('l2-l3-read-time: ',l2_l3_read_time)
-    print('lr-dram-read-time: ',l3_dram_read_time)
+    print('l3-dram-read-time: ',l3_dram_read_time)
     print('Single-CPU-Without-MemoryHierarchy', mean_single_thread_run_without_mem_hierarchy)
     df.insert(len(df.columns),'Mean-Runtime-1-Thread-WithOUT-Memory-Hierarchy',value=mean_single_thread_run_without_mem_hierarchy)
 
