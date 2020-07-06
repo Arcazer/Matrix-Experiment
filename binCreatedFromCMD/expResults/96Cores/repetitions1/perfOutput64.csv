@@ -1,0 +1,22 @@
+# started on Mon Jul  6 20:07:29 2020
+
+27144294675;;L1-dcache-store;29544261618;24,99;;
+<not supported>;;L1-dcache-store-misses;0;100,00;;
+54287484;;LLC-store;29378128758;24,84;;
+24688442;;LLC-store-misses;29321390333;24,80;;
+63157018285;;cycle_activity.stalls_l2_miss;29397276841;24,86;;
+6618659370;;cycle_activity.stalls_l3_miss;29544241996;24,99;;
+2102488070;;longest_lat_cache.reference;29691383441;25,11;;
+189175669;;longest_lat_cache.miss;29720047681;25,13;;
+88255273580;;L1-dcache-loads;29585647779;25,02;;
+2059808385;;L1-dcache-load-misses;29531407272;24,97;2;of all L1-dcache hits
+90265366;;LLC-loads;29462505526;24,92;;
+15399021;;LLC-load-misses;29476269036;24,93;17;of all LL-cache hits
+<not supported>;;L1-icache-loads;0;100,00;;
+74899551;;L1-icache-load-misses;29600895278;25,03;;
+94275018865;;dTLB-loads;29627562619;25,06;;
+19148960;;dTLB-load-misses;29715455780;25,13;0;of all dTLB cache hits
+7065082;;iTLB-loads;29729766455;25,14;;
+3410661;;iTLB-load-misses;29663653607;25,09;48;of all iTLB cache hits
+<not supported>;;L1-dcache-prefetches;0;100,00;;
+<not supported>;;L1-dcache-prefetch-misses;0;100,00;;
