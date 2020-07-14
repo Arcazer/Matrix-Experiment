@@ -1,0 +1,2 @@
+Jul 14, 2020 7:56:26 PM de.tuchemnitz.se.openmp.ExperimentManager <init>
+INFO: Run 0/1: toke 5529ms
