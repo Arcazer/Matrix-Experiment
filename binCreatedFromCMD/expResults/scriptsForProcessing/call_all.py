@@ -13,29 +13,29 @@ import os
 # l3_dram_bandwidth=4776000
 # thread_sequence = [1,2,4,6,8,10,12,14,16,18,20,24,32,40,44,48,56,64]
 
-base_path='../96Cores/repetitions100/'
-resultFolderAppendix='96Core'
-repetitions = 100
-core_l1_bandwidth=164810000
-l1_l2_bandwidth=72590000
-l2_l3_bandwidth=18880000
-l3_dram_bandwidth=8207000
-thread_sequence = [1,2,4,6,8,10,12,14,16,18,20,24,32,40,44,48,56,64]
-
-# base_path='../24Cores/repetitions100/'
-# resultFolderAppendix='24Core'
+# base_path='../96Cores/repetitions100/'
+# resultFolderAppendix='96Core'
 # repetitions = 100
-# core_l1_bandwidth=81196000
-# l1_l2_bandwidth=37816000
-# l2_l3_bandwidth=24469000
-# l3_dram_bandwidth=7873000
-# thread_sequence = [1,2,4,6,8,10,12,14,16,18,20]
+# core_l1_bandwidth=164810000
+# l1_l2_bandwidth=72590000
+# l2_l3_bandwidth=18880000
+# l3_dram_bandwidth=8207000
+# thread_sequence = [1,2,4,6,8,10,12,14,16,18,20,24,32,40,44,48,56,64]
+
+base_path='../24Cores/repetitions100/'
+resultFolderAppendix='24Core'
+repetitions = 100
+core_l1_bandwidth=81196000
+l1_l2_bandwidth=37816000
+l2_l3_bandwidth=24469000
+l3_dram_bandwidth=7873000
+thread_sequence = [1,2,4,6,8,10,12,14,16,18,20]
 
 
 
 #-- create output dir where all csvs files are store. 
 #-- all scripts will look use this folder to lookup 
-# last path is empty, therfore a directory / is added to the path 
+# last path is empty, therefore a directory / is added to the path 
 output_dir = os.path.join('.','resultCSVs' , resultFolderAppendix,'')
 
 if not os.path.exists(output_dir):
@@ -45,6 +45,7 @@ if not os.path.exists(output_dir):
         print ("Creation of the directory %s failed" % output_dir)
 
 float_format_decimals = '%.10f';
+
 one.convert_perf_output(output_dir,base_path,repetitions)
 two.evaluate_exp_duration(output_dir,base_path,thread_sequence,float_format_decimals)
 three.evaluate_perf_hit(output_dir,base_path,float_format_decimals)
