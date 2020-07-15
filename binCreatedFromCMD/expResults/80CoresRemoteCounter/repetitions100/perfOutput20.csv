@@ -1,0 +1,22 @@
+# started on Tue Jul 14 23:41:12 2020
+
+2705763596366;;L1-dcache-store;1466911497282;20.01;;
+2555843404;;L1-dcache-store-misses;1466800926361;20.01;;
+2283441642;;LLC-store;1466136582307;20.00;;
+1913688405;;LLC-store-misses;1465478177334;19.99;;
+29515222692;;offcore_response.demand_data.local_cache_dram;731965307428;9.98;;
+28451533051;;offcore_response.demand_data.local_cache;732128275209;9.99;;
+10523924074;;offcore_response.demand_data.remote_cache_dram;732432855265;9.99;;
+7289043727;;offcore_response.demand_data.remote_cache;732435890326;9.99;;
+8149357144923;;L1-dcache-loads;1098950960452;14.99;;
+184729078532;;L1-dcache-load-misses;1465234348372;19.98;2.27;of all L1-dcache hits
+34189292487;;LLC-loads;1465001102113;19.98;;
+6172195443;;LLC-load-misses;1465106696238;19.98;6.63;of all LL-cache hits
+152027572537;;L1-icache-loads;1465822105786;19.99;;
+898211190;;L1-icache-load-misses;1466568182894;20.00;;
+8139686129752;;dTLB-loads;1467063188307;20.01;;
+3701692510;;dTLB-load-misses;1467285826055;20.01;0.05;of all dTLB cache hits
+10314814815124;;iTLB-loads;1467251617796;20.01;;
+25144446;;iTLB-load-misses;1467082602445;20.01;0.00;of all iTLB cache hits
+470782279977;;L1-dcache-prefetches;1466918640351;20.01;;
+110869407654;;L1-dcache-prefetch-misses;1466925689855;20.01;;
