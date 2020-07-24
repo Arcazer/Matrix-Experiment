@@ -30,13 +30,13 @@ def evaluate_perf_hit(output_dir,base_path,float_format_decimals):
     df.insert(9,'L2-dcache-load',value=df['L1-dcache-load-misses'])
     df.insert(10,'L2-dcache-load-misses',value=df['LLC-load'])
 
-    df.insert(len(df.columns),'L1-W-Hit',value=df['L1-dcache-store']/(df['L1-dcache-store']+df['L1-dcache-store-misses']))
-    df.insert(len(df.columns),'L2-W-Hit',value=df['L2-dcache-store']/(df['L2-dcache-store']+df['L2-dcache-store-misses']))
-    df.insert(len(df.columns),'L3-W-Hit',value=df['LLC-store']/(df['LLC-store']+df['LLC-store-misses']))
+    df.insert(len(df.columns),'L1-W-Hit',value=1-df['L1-dcache-store-misses']/df['L1-dcache-store'])
+    df.insert(len(df.columns),'L2-W-Hit',value=1-df['L2-dcache-store-misses']/df['L2-dcache-store'])
+    df.insert(len(df.columns),'L3-W-Hit',value=1-df['LLC-store-misses']/df['LLC-store'])
 
-    df.insert(len(df.columns),'L1-R-Hit',value=df['L1-dcache-load']/(df['L1-dcache-load']+df['L1-dcache-load-misses']))
-    df.insert(len(df.columns),'L2-R-Hit',value=df['L2-dcache-load']/(df['L2-dcache-load']+df['L2-dcache-load-misses']))
-    df.insert(len(df.columns),'L3-R-Hit',value=df['LLC-load']/(df['LLC-load']+df['LLC-load-misses']))
+    df.insert(len(df.columns),'L1-R-Hit',value=1-df['L1-dcache-load-misses']/df['L1-dcache-load'])
+    df.insert(len(df.columns),'L2-R-Hit',value=1-df['L2-dcache-load-misses']/df['L2-dcache-load'])
+    df.insert(len(df.columns),'L3-R-Hit',value=1-df['LLC-load-misses']/df['LLC-load'])
 
     df.to_csv(final_output_file, float_format=float_format_decimals, index=False)
 
