@@ -57,9 +57,8 @@ thread_sequence = [1,2,4,6,8,10,12,14,16,18,20,24,28,32,36,40,48,56,64,72,80]
 
 
 
-#-- create output dir where all csvs files are store. 
-#-- all scripts will look use this folder to lookup 
-# last path is empty, therefore a directory / is added to the path 
+# create output dir where all csvs files are stored. 
+# last argument in os.path.joint is a empty string(''), therefore a directory slash (/) is added to the path 
 output_dir = os.path.join('.','resultCSVs' , resultFolderAppendix,'')
 
 if not os.path.exists(output_dir):
@@ -68,10 +67,14 @@ if not os.path.exists(output_dir):
     except OSError:
         print ("Creation of the directory %s failed" % output_dir)
 
-float_format_decimals = '%.10f';
+# variables 
+# float_format_decimals describes how many decimal places should be kept
+# cache_line_size is processor specific and describes how many bytes are transfered per cache line 
+float_format_decimals = '%.10f'
+cache_line_size = 64
 
 one.convert_perf_output(output_dir,base_path,repetitions)
 two.evaluate_exp_duration(output_dir,base_path,thread_sequence,float_format_decimals)
 three.evaluate_perf_hit(output_dir,base_path,float_format_decimals)
-four.evaluate_cpu_demand(output_dir,base_path,core_l1_bandwidth,l1_l2_bandwidth,l2_l3_bandwidth,l3_dram_bandwidth,float_format_decimals)
+four.evaluate_cpu_demand(output_dir,base_path,core_l1_bandwidth,l1_l2_bandwidth,l2_l3_bandwidth,l3_dram_bandwidth,float_format_decimals,cache_line_size)
 five.concat_scaling_l3_dram_bandwidth(output_dir,base_path,float_format_decimals,stream_scaling_dram_path)
